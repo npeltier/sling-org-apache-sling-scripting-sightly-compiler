@@ -37,7 +37,7 @@
         The versioning scheme defined here corresponds to SLING-7406 (<module_version>-<htl_specification_version>). Take care when
         releasing to only increase the first part, unless the module provides support for a newer version of the HTL specification.
     -->
-    <version>1.0.22-1.4.0</version>
+    <version>1.0.22-1.4.0-B001</version>
     <packaging>bundle</packaging>
 
     <name>Apache Sling Scripting HTL Compiler</name>
@@ -126,7 +126,7 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>findbugs-maven-plugin</artifactId>
-                <version>3.0.3</version>
+                <version>3.0.5</version>
                 <configuration>
                     <effort>Max</effort>
                     <xmlOutput>true</xmlOutput>
